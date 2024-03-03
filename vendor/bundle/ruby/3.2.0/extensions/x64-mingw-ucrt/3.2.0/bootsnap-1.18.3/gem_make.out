@@ -1,0 +1,22 @@
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+C:/Users/phili/AppData/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for fdatasync() in unistd.h... no
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-nhpxcs sitelibdir\=./.gem.20240303-48916-nhpxcs clean
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-nhpxcs sitelibdir\=./.gem.20240303-48916-nhpxcs
+generating bootsnap-x64-mingw-ucrt.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-nhpxcs sitelibdir\=./.gem.20240303-48916-nhpxcs install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240303-48916-nhpxcs/bootsnap
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-nhpxcs sitelibdir\=./.gem.20240303-48916-nhpxcs clean

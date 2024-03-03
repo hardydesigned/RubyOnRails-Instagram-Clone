@@ -1,0 +1,19 @@
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+C:/Users/phili/AppData/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-4p1g35 sitelibdir\=./.gem.20240303-48916-4p1g35 clean
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-4p1g35 sitelibdir\=./.gem.20240303-48916-4p1g35
+generating websocket_mask-x64-mingw-ucrt.def
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-4p1g35 sitelibdir\=./.gem.20240303-48916-4p1g35 install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240303-48916-4p1g35
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-4p1g35 sitelibdir\=./.gem.20240303-48916-4p1g35 clean

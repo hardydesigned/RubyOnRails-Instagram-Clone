@@ -1,0 +1,18 @@
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+C:/Users/phili/AppData/Ruby32-x64/bin/ruby.exe extconf.rb
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-98wtrk sitelibdir\=./.gem.20240303-48916-98wtrk clean
+make: *** Keine Regel, um „clean“ zu erstellen.  Schluss.
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-98wtrk sitelibdir\=./.gem.20240303-48916-98wtrk
+make: Für das Ziel „all“ ist nichts zu tun.
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-98wtrk sitelibdir\=./.gem.20240303-48916-98wtrk install
+make: Für das Ziel „install“ ist nichts zu tun.
+
+current directory: C:/Users/phili/Documents/rubyonrails_test/instagram_clone/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.0/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240303-48916-98wtrk sitelibdir\=./.gem.20240303-48916-98wtrk clean
+make: *** Keine Regel, um „clean“ zu erstellen.  Schluss.

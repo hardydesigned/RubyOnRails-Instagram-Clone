@@ -1,0 +1,86 @@
+find_header: checking for prism.h in c:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/include... -------------------- yes
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -o conftest.exe -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong conftest.c  -L. -LC:/Users/phili/AppData/Ruby32-x64/lib -L. -pipe -s -fstack-protector-strong -Wl,--no-as-needed  -m64   -lx64-ucrt-ruby320  -lshell32 -lws2_32 -liphlpapi -limagehlp -lshlwapi -lbcrypt  "
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: prism.h: No such file or directory
+    5 | #include <prism.h>
+      |          ^~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <prism.h>
+/* end */
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/include" -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <prism.h>
+/* end */
+
+--------------------
+
+find_header: checking for prism/extension.h in c:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/ext... -------------------- yes
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/include" -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64  -c conftest.c"
+conftest.c:5:10: fatal error: prism/extension.h: No such file or directory
+    5 | #include <prism/extension.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <prism/extension.h>
+/* end */
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/include" -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/ext" -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: #include <prism/extension.h>
+/* end */
+
+--------------------
+
+block in append_cflags: checking for whether -fvisibility=hidden is accepted as CFLAGS... -------------------- yes
+
+PATH=".;C:/Users/phili/AppData/Ruby32-x64/lib;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\ucrt64\bin;C:\Users\phili\AppData\Ruby32-x64\msys64\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\libnvvp;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\phili\AppData\Local\Pub\Cache\bin\;C:\Program Files\Mullvad VPN\resources;C:\Program Files\Calibre2\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;C:\Program Files\Docker\Docker\resources\bin;C:\ST\STM32CubeCLT;C:\ST\STM32CubeCLT\STM32CubeProgrammer\bin;C:\ST\STM32CubeCLT\STLink-gdb-server\bin;C:\ST\STM32CubeCLT\GNU-tools-for-STM32\bin;C:\Program Files (x86)\STMicroelectronics\stlink_server;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\runtime\win64;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\phili\AppData\Ruby32-x64\bin;C:\Program Files\sqlite3;C:\Users\phili\AppData\Roaming\Python\Python311\;C:\Users\phili\AppData\Roaming\Python\Python311\Scripts\;C:\src\flutter\bin;C:\Users\phili\.dotnet\tools;C:\Users\phili\AppData\Roaming\npm;C:\Users\phili\AppData\Local\Yarn\bin" "gcc -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/x64-mingw-ucrt -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0/ruby/backward -IC:/Users/phili/AppData/Ruby32-x64/include/ruby-3.2.0 -I. "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/include" "-Ic:/Users/phili/Documents/Github Repositoties/RubyOnRails Instagram Clone/vendor/bundle/ruby/3.2.0/gems/prism-0.24.0/ext" -D__USE_MINGW_ANSI_STDIO=1 -DFD_SETSIZE=2048 -D_WIN32_WINNT=0x0600 -D__MINGW_USE_VC2005_COMPAT -D_FILE_OFFSET_BITS=64  -O3 -fno-fast-math -fstack-protector-strong -m64 -fvisibility=hidden -Werror -c conftest.c"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <winsock2.h>
+4: #include <windows.h>
+5: int main(int argc, char **argv)
+6: {
+7:   return !!argv[argc];
+8: }
+/* end */
+
+--------------------
+
